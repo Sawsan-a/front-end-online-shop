@@ -1,17 +1,14 @@
-/* إزالة الهوامش الافتراضية */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* تنسيق الصفحة */
 body {
   font-family: Arial, sans-serif;
   color: #111;
   background: white;
 }
-/* الشريط العلوي */
 .top-bar {
   background: #7ccfc4;
   color: white;
@@ -24,7 +21,6 @@ body {
 
   letter-spacing: 1px;
 }
-/* الهيدر */
 .header {
   height: 80px;
 
@@ -45,14 +41,11 @@ body {
 
   z-index: 100;
 }
-/* الشعار */
 .logo {
   font-size: 28px;
 
   font-weight: 400;
 }
-
-/* أزرار الهيدر */
 .header button {
   background: none;
 
@@ -62,7 +55,6 @@ body {
 
   cursor: pointer;
 }
-/* أيقونات الهيدر */
 .header-icons {
   display: flex;
 
@@ -70,7 +62,6 @@ body {
 
   align-items: center;
 }
-/* قسم الهيرو */
 .hero {
   position: relative;
   width: 100%;
@@ -84,8 +75,6 @@ body {
   object-fit: cover;
   display: block;
 }
- 
-
 .hero {
   position: relative;
 
@@ -105,8 +94,6 @@ body {
 
   display: block;
 }
-
-/* محتوى الهيرو */
 .hero-content {
   position: absolute;
 
@@ -120,8 +107,6 @@ body {
 
   color: white;
 }
-
-/* عنوان الهيرو */
 .hero-content h2 {
   font-size: 48px;
 
@@ -129,8 +114,6 @@ body {
 
   font-weight: 600;
 }
-
-/* زر الهيرو */
 .hero-content button {
   background: transparent;
 
@@ -146,21 +129,17 @@ body {
 
   transition: 0.3s;
 }
-
-/* تأثير عند المرور */
 .hero-content button:hover {
   background: white;
 
   color: black;
 }
-/* قسم المنتجات */
 .products {
   padding: 80px 24px;
 
   background: white;
 }
 
-/* عنوان القسم */
 .products h2 {
   font-size: 38px;
 
@@ -169,7 +148,6 @@ body {
   font-weight: 500;
 }
 
-/* شبكة المنتجات */
 .product-grid {
   display: grid;
 
@@ -178,12 +156,10 @@ body {
   gap: 24px;
 }
 
-/* كرت المنتج */
 .product-card {
   cursor: pointer;
 }
 
-/* صورة المنتج */
 .product-card img {
   width: 100%;
 
@@ -196,12 +172,10 @@ body {
   transition: 0.3s;
 }
 
-/* تأثير عند المرور */
 .product-card:hover img {
   transform: scale(1.03);
 }
 
-/* اسم المنتج */
 .product-card h3 {
   font-size: 22px;
 
@@ -210,7 +184,6 @@ body {
   font-weight: 400;
 }
 
-/* السعر */
 .product-card p {
   font-size: 18px;
 
@@ -315,11 +288,11 @@ body {
   transition: 0.4s;
 }
 
-/* عند فتح القائمة */
+
 .side-menu.active {
   left: 0;
 }
-/* زر الإغلاق */
+
 .close-menu {
   background: none;
 
@@ -332,7 +305,7 @@ body {
   cursor: pointer;
 }
 
-/* روابط القائمة */
+
 .side-menu a {
   display: block;
 
